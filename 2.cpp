@@ -6,7 +6,8 @@ int main(){
   cout << "Vvedite razmer nosledovatel'nosti" <<  endl;
   cin >> n;
   if (n <= 0) {
-        return 0;
+        cout << "error" << endl;
+  }
   int a[n];
   cout << "Vvedite elementi  nosledovatel'nosti" <<  endl;
   for (i = 0; i < n; i++) {
@@ -28,6 +29,5 @@ int main(){
         cout << b[i] << "";
   }
 return 0;
-}
 }
 

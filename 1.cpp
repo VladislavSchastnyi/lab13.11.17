@@ -21,6 +21,5 @@ int main(){
   for (m = 0; m < n; m++) {
        cout << a[m]  << endl;
   }
-delete [] a;
 }
 
